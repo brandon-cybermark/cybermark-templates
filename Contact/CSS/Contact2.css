@@ -1,0 +1,20 @@
+.contTwo{
+    width: 45%!important;
+}
+
+.infoContainer input, .infoContainer textarea{
+    background-color: lightgray;
+    
+    }
+
+.infoContainer{
+    width:100%!important;
+}
+
+.infoContainer button{
+    width: 175px;
+    }
+
+.inputColumn{
+    padding-right: 150px!important;
+}

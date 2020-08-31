@@ -1,0 +1,9 @@
+.form_box{
+    width: 85%;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.fullscreen{
+    height: 600px;
+}

@@ -1,0 +1,68 @@
+/* Contact Template 1 */
+
+.contOne input, .contOne textarea{
+background-color: lightgray;
+
+}
+
+.contOne{
+    width: 45%!important;
+}
+
+.contOne textarea{
+    margin-left: 12px;
+    margin-right:12px;
+}
+
+.contOne button{
+width: 175px;
+}
+
+/* Contact Template 2 */
+
+.contTwo{
+    width: 45%!important;
+}
+
+.infoContainer input, .infoContainer textarea{
+    background-color: lightgray;
+    
+    }
+
+.infoContainer{
+    width:100%!important;
+}
+
+.infoContainer button{
+    width: 175px;
+    }
+
+.inputColumn{
+    padding-right: 150px!important;
+}
+
+/* Contact Template 3 */
+
+.contThree{
+    width: 45%!important;
+}
+
+.infoContainerThree input, .infoContainerThree textarea{
+    background-color: lightgray;
+    
+    }
+
+.infoContainerThree{
+    width:100%!important;
+}
+
+.infoContainerThree button{
+    width: 175px;
+    }
+
+.map{
+    margin-left: -150px;
+}
+
+/* Contact Template 4 */
+

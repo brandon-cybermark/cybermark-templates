@@ -20,3 +20,21 @@
 
 
 /* Gallery 4 */
+
+.regular img {
+    /* padding: 10px; */
+    /* margin: 10px; */
+    width: 250px;
+}
+
+.slick-prev:before {
+    color: teal !important;
+    background-color: #eee;
+    font-size: x-large;
+    
+  }
+  .slick-next:before {
+    color: teal !important;
+    background-color: #eee;
+    font-size: x-large;
+  }

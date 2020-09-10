@@ -28,6 +28,11 @@ h1, h2, h3, h4, h5, strong {
 .footer3 button {
     background-color: teal;
 }
+.footer3 button:hover{
+    background-color: white;
+    border: solid 1px teal;
+    color: teal;
+    }
 
 body{
     font-family: 'Montserrat', sans-serif;

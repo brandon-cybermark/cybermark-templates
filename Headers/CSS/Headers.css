@@ -23,6 +23,13 @@ h1, h2, h3, h4, h5, strong {
     width: 175px;
 }
 
+.header2 button:hover{
+    width: 175px;
+    background-color: white;
+    border: solid 1px teal;
+    color: teal;
+    }
+
 /* Header 3 */
 
 body{

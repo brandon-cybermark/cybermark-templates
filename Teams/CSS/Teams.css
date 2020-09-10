@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5 {
     border: teal solid 1px;
 }
 
+.team2 button:hover {
+    color: white;
+    background-color: teal;
+}
+
 
 /* Teams Template 3 */
 

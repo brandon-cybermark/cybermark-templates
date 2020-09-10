@@ -11,6 +11,11 @@ h1, h2, h3, h4, h5 {
 .pricing1 button{
     background-color: teal;
 }
+.pricing1 button:hover{
+    background-color: white;
+    border: solid 1px teal;
+    color: teal;
+    }
 
 .price{
     font-size: 42px;
@@ -45,6 +50,13 @@ h1, h2, h3, h4, h5 {
     width: 175px;
 }
 
+.pricing2 button:hover{
+    width: 175px;
+    background-color: white;
+    border: solid 1px teal;
+    color: teal;
+    }
+
 
 
 
@@ -64,11 +76,22 @@ h1, h2, h3, h4, h5 {
 background-color: teal;
 }
 
+.pricing3 .btn-success:hover{
+    background-color: white;
+    border: solid 1px teal;
+    color: teal;
+    }
+
 .pricing3 .btn-outline-success{
     background-color: white;
     border: teal solid 1px;
     color: teal;
     }
+
+    .pricing3 .btn-outline-success:hover{
+        background-color: teal;
+        color: white;
+        }
 
 
 .price{
@@ -118,3 +141,8 @@ h1, h2, h3, h4, h5 {
     border: teal solid 1px;
     color: teal;
     }
+
+    .pricing4 .btn-outline-success:hover{
+        background-color: teal;
+        color: white;
+        }

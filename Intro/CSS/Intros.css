@@ -13,6 +13,12 @@ ul{
   width: 175px;
   background-color: teal;
 }
+.intro1 button:hover{
+  width: 175px;
+  background-color: white;
+  border: solid 1px teal;
+  color: teal;
+  }
 
 body{
   font-family: 'Montserrat', sans-serif;
@@ -46,6 +52,12 @@ h1, h2, h3, h4, h5 {
   background-color: teal;
   }
 
+  .intro2 button:hover{
+    background-color: white;
+    border: solid 1px teal;
+    color: teal;
+    }
+
 
 /* Intro Template 3 */
 
@@ -54,6 +66,13 @@ h1, h2, h3, h4, h5 {
   border: teal solid 1px;
   color: teal;
 }
+
+.signUp button:hover{
+  width: 175px;
+  background-color: white;
+  border: solid 1px teal;
+  color: teal;
+  }
 
 .button_section .btn-success{
   background-color: teal;

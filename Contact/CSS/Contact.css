@@ -28,6 +28,12 @@ width: 175px;
 background-color: teal;
 }
 
+.contOne button:hover{
+    width: 175px;
+    background-color: white;
+    border: solid 1px teal;
+    color: teal;
+    }
 /* Contact Template 2 */
 
 body{
@@ -55,6 +61,13 @@ h1, h2, h3, h4, h5 {
     width: 175px;
     background-color: teal;
     }
+
+    .infoContainer button:hover{
+        width: 175px;
+        background-color: white;
+        border: solid 1px teal;
+        color: teal;
+        }
 
 .inputColumn{
     padding-right: 150px!important;
@@ -88,6 +101,13 @@ h1, h2, h3, h4, h5{
     background-color: teal;
     }
 
+    .infoContainerThree button:hover{
+        width: 175px;
+        background-color: white;
+        border: solid 1px teal;
+        color: teal;
+        }
+
 .map{
     margin-left: -150px;
 }
@@ -106,3 +126,10 @@ h1, h2, h3, h4, h5{
     width: 175px;
     background-color: teal;
 }
+
+.contact4 button:hover{
+    width: 175px;
+    background-color: white;
+    border: solid 1px teal;
+    color: teal;
+    }

@@ -45,6 +45,13 @@ h1, h2, h3, h4, h5, strong {
     background-color: teal;
 }
 
+.feature3 button:hover{
+    width: 175px;
+    background-color: white;
+    border: solid 1px teal;
+    color: teal;
+    }
+
 
 
 
@@ -63,3 +70,9 @@ h1, h2, h3, h4, h5, strong {
     width: 175px;
     background-color: teal;
 }
+.feature4 button:hover{
+    width: 175px;
+    background-color: white;
+    border: solid 1px teal;
+    color: teal;
+    }

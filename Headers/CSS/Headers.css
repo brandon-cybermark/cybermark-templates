@@ -1,13 +1,49 @@
 /* Header 1 */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
+h1, h2, h3, h4, h5, strong {
+    font-family: 'Montserrat', sans-serif;
+}
 
 /* Header 2 */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
+h1, h2, h3, h4, h5, strong {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header2 button{
+    background-color: teal;
+    width: 175px;
+}
 
 /* Header 3 */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
+h1, h2, h3, h4, h5, strong {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header3 button{
+    /* background-color: teal; */
+    width: 175px;
+}
 
 /* Header 4 */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, strong {
+    font-family: 'Montserrat', sans-serif;
+}

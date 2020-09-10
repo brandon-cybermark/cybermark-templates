@@ -1,4 +1,13 @@
 /* Contact Template 1 */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .contOne input, .contOne textarea{
 background-color: lightgray;
@@ -16,9 +25,18 @@ background-color: lightgray;
 
 .contOne button{
 width: 175px;
+background-color: teal;
 }
 
 /* Contact Template 2 */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .contTwo{
     width: 45%!important;
@@ -35,6 +53,7 @@ width: 175px;
 
 .infoContainer button{
     width: 175px;
+    background-color: teal;
     }
 
 .inputColumn{
@@ -42,6 +61,14 @@ width: 175px;
 }
 
 /* Contact Template 3 */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Montserrat', sans-serif;
+}
 
 .contThree{
     width: 45%!important;
@@ -58,6 +85,7 @@ width: 175px;
 
 .infoContainerThree button{
     width: 175px;
+    background-color: teal;
     }
 
 .map{
@@ -66,3 +94,15 @@ width: 175px;
 
 /* Contact Template 4 */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact4 button {
+    width: 175px;
+    background-color: teal;
+}

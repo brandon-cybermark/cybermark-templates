@@ -1,5 +1,17 @@
 /* Pricing Table Template 1 */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pricing1 button{
+    background-color: teal;
+}
+
 .price{
     font-size: 42px;
     font-weight: 700;
@@ -7,6 +19,14 @@
 }
 
 /* Pricing Table Template 2 */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .price{
     font-size: 42px;
@@ -20,11 +40,35 @@
     font-weight: 500;
 }
 
+.pricing2 button {
+    background-color: teal;
+    width: 175px;
+}
+
 
 
 
 
 /* Pricing Table Template 3 */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.pricing3 .btn-success{
+background-color: teal;
+}
+
+.pricing3 .btn-outline-success{
+    background-color: white;
+    border: teal solid 1px;
+    color: teal;
+    }
 
 
 .price{
@@ -55,8 +99,22 @@
 
 /* Pricing Table Template 4 */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .price{
     font-size: 42px;
     font-weight: 700;
     color: teal;
 }
+
+.pricing4 .btn-outline-success{
+    background-color: white;
+    border: teal solid 1px;
+    color: teal;
+    }

@@ -9,6 +9,18 @@ ul{
     font-weight: 700;
 }
 
+.intro1 button {
+  width: 175px;
+  background-color: teal;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
 
 /* Intro Template 2 */
 
@@ -22,9 +34,44 @@ ul{
     height: 600px;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.intro2 button{
+  background-color: teal;
+  }
 
 
 /* Intro Template 3 */
+
+.signUp button{
+  background-color: white;
+  border: teal solid 1px;
+  color: teal;
+}
+
+.button_section .btn-success{
+  background-color: teal;
+}
+
+.button_section .btn-success:hover{
+  background-color: white;
+  color: teal;
+}
+
+.button_section .btn-outline-success:hover{
+  background-color: teal;
+}
+
+.button_section .btn-outline-success{
+  border: teal solid 1px;
+  color: teal;
+}
 
 .button_section button{
     width: 45%;
@@ -34,6 +81,13 @@ ul{
         height: 600px;
     }
 
+    body{
+      font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5 {
+      font-family: 'Montserrat', sans-serif;
+  }
 
 
 /* Intro Template 4 */
@@ -91,12 +145,34 @@ header {
     height: 600px;
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 /* Intro Template 5 */
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
 
 .fullscreen{
     height: 600px;
+}
+
+.button_section .btn-success{
+  background-color: teal;
+}
+
+.button_section .btn-success:hover{
+  background-color: white;
+  color: teal;
 }

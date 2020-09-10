@@ -1,6 +1,12 @@
 /* Testimonials Template 1 */
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 /* Testimonials Template 2 */
@@ -10,7 +16,13 @@
   filter: invert(1);
 }
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 
@@ -18,7 +30,13 @@
 
 
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 

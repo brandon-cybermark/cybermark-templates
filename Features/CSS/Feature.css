@@ -1,21 +1,48 @@
 /* Features Template 1 */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 .feature{
     margin-left: -12px;
 }
 
+
 /* Features Template 2 */
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
 
 /* Features Template 3 */
 
-.container button {
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, strong {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.feature3 button {
     padding-right: 25px;
     padding-left: 25px;
-
+    width: 175px;
+    background-color: teal;
 }
 
 
@@ -23,3 +50,16 @@
 
 
 /* Features Template 4 */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, strong {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.feature4 button {
+    width: 175px;
+    background-color: teal;
+}

@@ -1,18 +1,38 @@
 /* Content Template 1 */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
+h1, h2, h3, h4, h5, strong {
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
 
 
 /* Content Template 2 */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 
+h1, h2, h3, h4, h5, strong {
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 
 
 
 /* Content Template 3 */
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, strong {
+    font-family: 'Montserrat', sans-serif;
+}
 
 .containerSmall{
     width: 45%!important;

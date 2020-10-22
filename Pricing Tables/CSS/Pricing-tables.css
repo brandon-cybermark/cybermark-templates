@@ -8,6 +8,10 @@ h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.section_wrapper{
+    padding: 0 75px;
+  }
+
 .pricing1 button{
     background-color: teal;
 }
@@ -21,7 +25,27 @@ h1, h2, h3, h4, h5 {
     font-size: 42px;
     font-weight: 700;
     color: teal;
+    padding-top: 10px;
 }
+
+.pricing1 p{
+    max-width: 750px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 20px;
+}
+
+.pricing1 h2{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.pricing1 strong{
+    font-weight: 800;
+    font-size:20px
+}
+
+
 
 /* Pricing Table Template 2 */
 
@@ -32,6 +56,10 @@ body{
 h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
 }
+
+.section_wrapper{
+    padding: 0 75px;
+  }
 
 .price{
     font-size: 42px;
@@ -57,6 +85,33 @@ h1, h2, h3, h4, h5 {
     color: teal;
     }
 
+.pricing2 svg{ 
+    fill: teal;
+    padding-bottom: 15px;
+}
+
+.pricing2 strong{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.pricing2 h2{
+    font-size: 45px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pricing2 .sub-text{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.pricing2 .border-right{
+    padding-right: 50px;
+}
 
 
 
@@ -71,8 +126,13 @@ h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.section_wrapper{
+    padding: 0 75px;
+  }
+
 
 .pricing3 .btn-success{
+    width: 100%;
 background-color: teal;
 }
 
@@ -116,6 +176,23 @@ background-color: teal;
     font-weight: 700;
 }
 
+.btn-holder{
+    padding-bottom: 15px;
+
+}
+
+.pricing3 h2{
+    font-size: 45px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.pricing3 .strong-point{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 800;
+}
 
 
 
@@ -130,6 +207,11 @@ h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
+
+.section_wrapper{
+    padding: 0 75px;
+  }
+  
 .price{
     font-size: 42px;
     font-weight: 700;
@@ -142,7 +224,23 @@ h1, h2, h3, h4, h5 {
     color: teal;
     }
 
-    .pricing4 .btn-outline-success:hover{
-        background-color: teal;
-        color: white;
-        }
+.pricing4 .btn-outline-success:hover{
+    background-color: teal;
+    color: white;
+     }
+
+.pricing4 h2{
+    font-size: 45px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.pricing4 h4{
+    padding-bottom: 20px;
+}
+
+.pricing4 svg {
+    fill: teal;
+    padding-bottom: 20px;
+}

@@ -1,6 +1,6 @@
 $(document).on('ready', function () {
     $(".regular").slick({
-        dots: true,
+        dots: false,
         arrows:true,
         infinite: true,
         slidesToShow: 4,

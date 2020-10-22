@@ -8,6 +8,34 @@ h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.section_wrapper{
+    padding: 0 75px;
+}
+
+.team1 h2{
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.team1 .sub-text{
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team1 svg{
+    fill: teal;
+    padding-bottom: 20px;
+}
+
+.team1 h4{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 
 /* Teams Template 2 */
 
@@ -20,6 +48,10 @@ h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.section_wrapper{
+    padding: 0 75px;
+}
+
 .team2 button {
     color: teal;
     background-color: white;
@@ -29,6 +61,21 @@ h1, h2, h3, h4, h5 {
 .team2 button:hover {
     color: white;
     background-color: teal;
+}
+
+.team2 h2{
+    font-weight: 800;
+    font-size: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.team2 .sub-text{
+    padding-bottom: 20px;
+}
+
+.team2 svg{
+    fill: teal;
 }
 
 
@@ -43,6 +90,30 @@ h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.section_wrapper{
+    padding: 0 75px;
+}
+
+
+
+.team3 h2 {
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.team3 h4{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: teal;
+}
+
+.team3 .muted-text{
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+
 
 /* Teams Template 4 */
 
@@ -55,11 +126,40 @@ h1, h2, h3, h4, h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
+.section_wrapper{
+    padding: 0 75px;
+}
+
+.team4 h2{
+    font-size: 45px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.team4 p {
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team4 .sub-text{
+    padding-bottom: 20px;
+}
+
+.team4 .image-holder{
+    margin-bottom: 30px;
+}
+
+
 .overImg{
-    background-color: #C0C0C0;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-50%, -50%);
-      
+        transform: translate(-50%, -50%); 
+}
+
+.overImg strong, .overImg p {
+    color: #FFF;
+    text-shadow: 2px 2px 4px #000000;
 }

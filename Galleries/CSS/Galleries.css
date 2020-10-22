@@ -7,6 +7,29 @@ h1, h2, h3, h4, h5, strong {
   font-family: 'Montserrat', sans-serif;
 }
 
+.section_wrapper{
+  padding: 0 75px;
+}
+
+.gallery1 h2{
+  font-size: 45px;
+  font-weight: 900;
+  padding-bottom: 15px;
+}
+
+.gallery1 .sub-text{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 750px;
+  padding-bottom: 15px;
+}
+
+.gallery1 h4{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 800;
+  color: teal;
+}
 
 
 
@@ -23,6 +46,29 @@ h1, h2, h3, h4, h5, strong {
 }
 
 
+.section_wrapper{
+  padding: 0 75px;
+}
+
+.gallery2 h2{
+  font-size: 45px;
+  font-weight: 900;
+  padding-bottom: 15px;
+  padding-top: 15px;
+
+}
+
+.gallery2 .sub-text{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 750px;
+  padding-bottom: 15px;
+}
+
+.gallery2 .image-holder{
+  margin-bottom: 35px;
+}
+
 
 
 /* Gallery 3 */
@@ -37,6 +83,35 @@ h1, h2, h3, h4, h5, strong {
 }
 
 
+.section_wrapper{
+  padding: 0 75px;
+}
+
+.gallery3 h2{
+  font-size: 45px;
+  font-weight: 900;
+  padding-bottom: 15px;
+  padding-top: 15px;
+
+}
+
+.gallery3 .sub-text{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 750px;
+  padding-bottom: 15px;
+}
+
+
+.gallery3 h4{
+  padding-top: 15px;
+  font-weight: 800;
+  color: teal;
+}
+
+
+
+
 /* Gallery 4 */
 
 body{
@@ -47,10 +122,25 @@ h1, h2, h3, h4, h5, strong {
   font-family: 'Montserrat', sans-serif;
 }
 
+
+.section_wrapper{
+  padding: 0 75px;
+}
+
+.regular{
+  padding-left: 25px;
+  padding-right: 10px;
+}
+
 .regular img {
-    /* padding: 10px; */
-    /* margin: 10px; */
     width: 250px;
+}
+
+.gallery4 h2{
+  font-size: 45px;
+  font-weight: 900;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 
 .slick-prev:before {

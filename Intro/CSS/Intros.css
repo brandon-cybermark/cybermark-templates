@@ -1,7 +1,7 @@
 /* Intro Template 1 */
 
-.fullscreen{
-    height: 600px;
+.intro1{
+    min-height: 600px;
 }
 
 ul{
@@ -10,11 +10,12 @@ ul{
 }
 
 .intro1 button {
-  width: 175px;
+  width: auto;
+  padding: 15px;
+  font-size: 20px;
   background-color: teal;
 }
 .intro1 button:hover{
-  width: 175px;
   background-color: white;
   border: solid 1px teal;
   color: teal;
@@ -28,6 +29,21 @@ h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
 
+.section_wrapper{
+  padding: 0 75px;
+}
+
+.intro1 h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.intro1 p{
+  padding-bottom: 20px;
+  }
+
 /* Intro Template 2 */
 
 .form_box{
@@ -36,9 +52,20 @@ h1, h2, h3, h4, h5 {
     padding: 20px;
 }
 
-.fullscreen{
-    height: 600px;
+.intro2{
+  min-height: 600px;
 }
+
+.intro2 h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.intro2 p{
+  padding-bottom: 20px;
+  }
 
 body{
   font-family: 'Montserrat', sans-serif;
@@ -46,6 +73,10 @@ body{
 
 h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
+}
+
+.section_wrapper{
+  padding: 0 75px;
 }
 
 .intro2 button{
@@ -61,6 +92,22 @@ h1, h2, h3, h4, h5 {
 
 /* Intro Template 3 */
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.section_wrapper{
+  padding: 0 75px;
+}
+
+.intro3{
+  min-height: 600px;
+}
+
 .signUp button{
   background-color: white;
   border: teal solid 1px;
@@ -74,43 +121,60 @@ h1, h2, h3, h4, h5 {
   color: teal;
   }
 
-.button_section .btn-success{
+.button_section .btn{
   background-color: teal;
+  color: #FFF;
+  font-size: 20px;
 }
 
-.button_section .btn-success:hover{
+.button_section .btn:hover{
   background-color: white;
   color: teal;
+  border: solid 1px teal;
 }
 
-.button_section .btn-outline-success:hover{
+.button_section .btn-outline:hover{
   background-color: teal;
+  color: #FFF;
 }
 
-.button_section .btn-outline-success{
+.button_section .btn-outline{
   border: teal solid 1px;
   color: teal;
+  background-color: #FFF;
 }
 
 .button_section button{
     width: 45%;
     }
-    
-    .fullscreen{
-        height: 600px;
-    }
 
-    body{
-      font-family: 'Montserrat', sans-serif;
+.intro3 h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 45px;
+  font-weight: 800;
+}
+
+.intro3 p{
+  padding-bottom: 20px;
   }
-  
-  h1, h2, h3, h4, h5 {
-      font-family: 'Montserrat', sans-serif;
-  }
+
 
 
 /* Intro Template 4 */
 
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.section_wrapper{
+  padding: 0 75px;
+}
 header {
     position: relative;
     background-color: black;
@@ -150,6 +214,15 @@ header {
     opacity: 0.5;
     z-index: 1;
   }
+
+  .intro4 h1{
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+  .intro4 p {
+    text-shadow: 2px 2px 4px #000000;
+
+  }
   
   @media (pointer: coarse) and (hover: none) {
     header {
@@ -160,17 +233,11 @@ header {
     }
   }
 
-  .fullscreen{
-    height: 600px;
+  .intro4{
+    min-height: 600px;
 }
 
-body{
-  font-family: 'Montserrat', sans-serif;
-}
 
-h1, h2, h3, h4, h5 {
-  font-family: 'Montserrat', sans-serif;
-}
 
 
 /* Intro Template 5 */
@@ -183,15 +250,44 @@ h1, h2, h3, h4, h5 {
   font-family: 'Montserrat', sans-serif;
 }
 
-.fullscreen{
-    height: 600px;
+.section_wrapper{
+  padding: 0 75px;
 }
 
-.button_section .btn-success{
-  background-color: teal;
+.intro5{
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.button_section .btn-success:hover{
-  background-color: white;
-  color: teal;
+.intro5 h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 45px;
+  font-weight: 800;
 }
+
+.intro5 .sub-text{
+  padding-bottom: 20px;
+  /* max-width: 750px; */
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  .intro5 input{
+    height: 45px;
+    margin: 0px;
+    width: auto;
+    min-width: 350px;
+}
+
+.intro5 .btn{
+  width: auto;
+}
+
+.intro5 .button_section{
+  display: flex;
+  justify-content: space-evenly;
+}
+  
+

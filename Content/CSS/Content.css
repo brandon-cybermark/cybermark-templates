@@ -19,7 +19,15 @@ h1, h2, h3, h4, h5, strong {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+@media  (max-width:767px){
+    .content1 {
+        text-align: center;
+    }
 
+    .content1 .col-md-6{
+        padding-bottom: 20px;
+    }
+}
 
 
 /* Content Template 2 */
@@ -40,6 +48,23 @@ h1, h2, h3, h4, h5, strong {
     font-weight: 800;
     padding-bottom: 20px;
     padding-top: 20px;
+}
+
+@media  (max-width:767px){
+    .content2 {
+        text-align: center;
+    }
+
+    .content2 .col-md-6{
+        padding-bottom: 20px;
+    }
+
+    .content2 .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
 }
 
 
@@ -68,8 +93,8 @@ h1, h2, h3, h4, h5, strong {
     padding-top: 20px;
 }
 
-.containerSmall{
-    width: 55%;
-    margin-left: auto;
+.content3 .col{
+    max-width: 700px;
     margin-right: auto;
+    margin-left: auto;
 }

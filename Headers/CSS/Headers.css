@@ -18,12 +18,12 @@ h1, h2, h3, h4, h5, strong {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header2 button{
+.header2 .btn{
     background-color: teal;
     width: 175px;
 }
 
-.header2 button:hover{
+.header2 .btn:hover{
     width: 175px;
     background-color: white;
     border: solid 1px teal;
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, strong {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header3 button{
+.header3 .btn{
     /* background-color: teal; */
     width: 175px;
 }

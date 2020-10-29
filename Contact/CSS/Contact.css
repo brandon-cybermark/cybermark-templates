@@ -18,17 +18,26 @@ background-color: lightgray;
 
 }
 
-.contOne{
-    width: 45%!important;
+.contOne .head{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contOne textarea{
-    margin-left: 12px;
-    margin-right:12px;
+    margin-top: 20px;
+}
+
+.contOne .forms{
+    
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contOne button{
-width: 175px;
+width: 100%;
+max-width: 200px;
 background-color: teal;
 }
 
@@ -38,6 +47,27 @@ background-color: teal;
     border: solid 1px teal;
     color: teal;
     }
+
+    @media  (max-width:767px){
+        .forms .col-md-6{
+            padding-bottom: 20px;
+        }
+        .contOne textarea{
+            margin-top: 0px;
+        }
+    }
+
+  @media  (max-width:470px){
+      .contOne{
+          max-width: none;
+      }
+
+      .contOne .forms{
+          max-width: none;    
+      }
+
+
+  } 
 /* Contact Template 2 */
 
 body{
@@ -52,8 +82,10 @@ h1, h2, h3, h4, h5 {
     padding: 0 75px;
   }
 
-.contTwo{
-    width: 45%!important;
+.contTwo .head{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .infoContainer input, .infoContainer textarea{
@@ -70,16 +102,33 @@ h1, h2, h3, h4, h5 {
     background-color: teal;
     }
 
-    .infoContainer button:hover{
-        width: 175px;
-        background-color: white;
-        border: solid 1px teal;
-        color: teal;
-        }
+.infoContainer button:hover{
+    width: 175px;
+    background-color: white;
+    border: solid 1px teal;
+    color: teal;
+    }
 
-.inputColumn{
-    padding-right: 150px!important;
+.infoContainer .submitButton{
+    text-align: right;
 }
+
+@media  (max-width:767px){
+
+    .inputColumn{
+        text-align: center;
+    }
+    .infoContainer .submitButton{
+        text-align: center;
+    }
+
+    .infoContainer .information{
+        padding-top: 25px;
+        text-align: center;
+    }
+}
+
+
 
 /* Contact Template 3 */
 
@@ -95,8 +144,10 @@ h1, h2, h3, h4, h5{
     padding: 0 75px;
   }
 
-.contThree{
-    width: 45%!important;
+  .contThree .head{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .infoContainerThree input, .infoContainerThree textarea{
@@ -105,7 +156,8 @@ h1, h2, h3, h4, h5{
     }
 
 .infoContainerThree{
-    width:100%!important;
+    width:100%;
+
 }
 
 .infoContainerThree button{
@@ -120,9 +172,31 @@ h1, h2, h3, h4, h5{
         color: teal;
         }
 
-.map{
-    margin-left: -150px;
+
+
+@media  (max-width:767px){
+
+    .infoContainerThree{
+        text-align: center;
+    }
+
+    .infoContainerThree .row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .infoContainerThree .forms{
+        padding-top: 20px;
+    }
+
+    .map p{
+        padding-top: 20px;
+    }
+
+
+
 }
+
 
 /* Contact Template 4 */
 
@@ -139,12 +213,11 @@ h1, h2, h3, h4, h5{
   }
 
 .contact4 button {
-    width: 175px;
+    max-width: 175px;
     background-color: teal;
 }
 
 .contact4 button:hover{
-    width: 175px;
     background-color: white;
     border: solid 1px teal;
     color: teal;
@@ -155,4 +228,14 @@ h1, h2, h3, h4, h5{
         color: teal;
     }
 
+@media  (max-width:767px){
+
+    .contact4{
+        text-align: center;
+    }
+
+    .contact4 .map{
+        padding-top: 20px;
+    }
+}
     
